@@ -7,7 +7,7 @@ alias full          move screenOriginX;screenOriginY                            
 alias lefthalf      move screenOriginX;screenOriginY                               screenSizeX/2;screenSizeY
 alias righthalf     move screenOriginX+screenSizeX/2;screenOriginY                 screenSizeX/2;screenSizeY
 alias top           move screenOriginX;screenOriginY                               screenSizeX;screenSizeY/2
-alias bottom        move screenOriginX;screenOriginX+(screenSizeY/2)               screenSizeX;screenSizeY
+alias bottom        push bottom bar-resize:screenSizeY/2
 
 alias topleft       corner top-left      resize:screenSizeX/2;screenSizeY/2
 alias topright      corner top-right     resize:screenSizeX/2;screenSizeY/2
