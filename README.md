@@ -1,2 +1,2 @@
 # dotfiles
-My Configs
+Repo to store my program dotfiles for safe keeping and sharing.
